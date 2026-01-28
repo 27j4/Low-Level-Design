@@ -1,0 +1,5 @@
+- defines a family of algorithm , put them into separate class so that
+  they can be changed at run time.
+
+- that enables us to define a family of strategies,
+    encapsulate each one of them, and make them interchangeable.
