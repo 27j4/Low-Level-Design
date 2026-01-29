@@ -1,4 +1,4 @@
-package behaviouralDesignPattern.Observer;
+package behaviouralDesignPattern.Observer.stockMarket;
 
 public class Main {
     public static void main(String[] args) {

@@ -18,7 +18,7 @@ public class PaypalPaymentAdapter implements PaymentProcessor{
 
 UML Diagram :
 
-Client → PaymentProcessor
+MyClient → PaymentProcessor
               ↑
          PayPalAdapter
               ↑
@@ -28,7 +28,7 @@ Client → PaymentProcessor
 Steps :
 
 Identify incompatible interfaces
-(Client expects X, existing class provides Y)
+(MyClient expects X, existing class provides Y)
 
 Define the target interface
 (What your client code will use)
@@ -46,6 +46,6 @@ Translate method calls
 (Convert target methods → adaptee methods)
 
 Use adapter in client code
-(Client talks only to target interface)
+(MyClient talks only to target interface)
 
  */

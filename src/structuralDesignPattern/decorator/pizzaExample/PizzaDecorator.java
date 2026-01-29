@@ -1,4 +1,4 @@
-package structuralDesignPattern.decorator;
+package structuralDesignPattern.decorator.pizzaExample;
 
 abstract public class PizzaDecorator implements Pizza{
     Pizza decoratedPizza;

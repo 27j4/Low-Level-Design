@@ -1,4 +1,4 @@
-package behaviouralDesignPattern.Observer;
+package behaviouralDesignPattern.Observer.stockMarket;
 
 import java.util.ArrayList;
 import java.util.List;

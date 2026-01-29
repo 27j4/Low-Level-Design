@@ -1,4 +1,4 @@
-package structuralDesignPattern.decorator;
+package structuralDesignPattern.decorator.pizzaExample;
 
 public class CheeseDecorator extends PizzaDecorator{
 
