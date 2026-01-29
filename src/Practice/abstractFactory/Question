@@ -1,0 +1,41 @@
+Question 1:
+
+An enterprise application must support multiple databases such as:
+- MySQL
+- PostgreSQL
+
+For each database, the system needs to create:
+- Connection
+- Statement
+
+Constraints:
+- All objects used together must belong to the same database family
+- The application should be able to switch databases at runtime
+- Client code should not depend on concrete database classes
+
+
+// abstract product -> connection , statement
+// concrete product -> MySqlConnection, PostgresConnection || MysqlStatement, PostgresStatement
+// abstract factory -> DatabaseFactory
+// concrete factory -> MYSQLFactory, PostgresFactory
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+Question 2 :
+
+You are building a system that supports multiple cloud providers:
+    AWS
+    Azure
+
+For each cloud provider, the system must create:
+    StorageService
+    ComputeService
+
+Constraints:
+    Services must belong to the same cloud provider
+    Switching cloud providers should not change client code
+    Client must not directly create cloud-specific classes
+
+

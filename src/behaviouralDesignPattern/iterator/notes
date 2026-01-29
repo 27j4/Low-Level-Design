@@ -1,0 +1,4 @@
+- provides a way to access the elements of an aggregate object sequentially
+  without exposing its underlying representation.
+- allows the client to traverse a collection in a uniform manner regardless of the
+  collection's structure.

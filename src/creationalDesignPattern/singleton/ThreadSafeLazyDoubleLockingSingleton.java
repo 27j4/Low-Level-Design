@@ -9,7 +9,7 @@ public class ThreadSafeLazyDoubleLockingSingleton {
 
     public static ThreadSafeLazyDoubleLockingSingleton getInstance() {
         if(instance == null){ // first check (no locking){
-            synchronized (ThreadSafeEagerSingleton.class){ // locks only if needed
+            synchronized (ThreadSafeLazyDoubleLockingSingleton.class){ // locks only if needed
                 if(instance == null){
                     instance = new ThreadSafeLazyDoubleLockingSingleton();
                 }
