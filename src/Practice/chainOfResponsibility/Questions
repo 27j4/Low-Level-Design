@@ -1,0 +1,15 @@
+1.
+
+An e-commerce system processes an order through multiple stages before shipping:
+Inventory Check
+If items are out of stock → stop processing
+Payment Verification
+If payment fails → stop processing
+Fraud Detection
+If flagged → stop processing
+Packaging & Shipping (Only if all previous steps pass)
+
+Each step:
+Decides whether it can process
+Either handles and passes forward
+Or rejects and stops the chain

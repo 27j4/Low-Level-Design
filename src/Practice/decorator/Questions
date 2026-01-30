@@ -1,0 +1,20 @@
+Scenario-Based Question (Decorator Pattern – File Encryption)
+
+You are building a file storage system.
+
+The system initially supports:
+    Basic file saving
+
+Over time, new features must be added:
+    Encryption
+    Compression
+    Logging
+
+Requirements:
+    Features should be added dynamically at runtime
+    Any combination of features should be possible
+    (e.g., Encryption + Compression, Compression + Logging, all three)
+
+Constraints:
+Avoid creating many subclasses for every feature combination
+Existing file-saving code should not be modified

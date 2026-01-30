@@ -1,0 +1,19 @@
+1.
+
+You are developing a payment application that works with a standard interface:
+PaymentProcessor → pay(amount)
+
+The application already supports:
+Credit Card payments
+Debit Card payments
+
+Now, a third-party UPI payment gateway needs to be integrated.
+Problem:
+The UPI library is already written and cannot be modified
+It exposes a different method:
+makePayment(value)
+
+Requirements:
+The existing system should continue using pay(amount)
+The third-party UPI code must be reused without changing it
+Client code should remain unchanged

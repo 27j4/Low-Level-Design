@@ -1,0 +1,15 @@
+1.
+
+You are building a library management system.
+A Library stores books in different ways:
+    Array
+    List
+    Stack
+
+Clients want to traverse books one by one.f
+The client should not know how books are stored internally.
+Traversal logic should be consistent and reusable.
+
+If the client directly accesses the collection:
+Tight coupling
+Change in data structure breaks client code
